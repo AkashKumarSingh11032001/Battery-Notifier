@@ -13,4 +13,4 @@ plugged = battery.power_plugged
 percent = battery.percent
 
 if percent >= 30:
-    
+    Notification(
