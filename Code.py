@@ -18,4 +18,4 @@ if percent >= 30:
         description=str(percent) + "% Battery remain!!",
         duration=5,  # Duration in seconds
         urgency=Notification.URGENCY_CRITICAL,
-        
+        ).send()
