@@ -14,3 +14,4 @@ percent = battery.percent
 
 if percent >= 30:
     Notification(
+        title="Battery Low",
