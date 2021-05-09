@@ -8,3 +8,4 @@
 import psutil
 
 battery = psutil.sensors_battery()
+plugged = battery.power_plugged
